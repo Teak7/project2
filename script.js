@@ -2,7 +2,7 @@
 const sidebar = document.querySelector(".sidebar");
 const sidebarToggle = document.getElementById("sidebarToggle");
 sidebarToggle.addEventListener("click", () => {
-  sidebar.classList.toggle("hidden");
+  sidebar.classList.toggle("hidde");
 });
 
 // Account modal elements
@@ -107,3 +107,4 @@ aboutUsLink.addEventListener('click', (e) => {
 closeMessageBtn.addEventListener('click', () => {
   centerMessage.style.display = 'none';
 });
+
